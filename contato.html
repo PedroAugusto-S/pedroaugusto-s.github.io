@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <title>Contato | Pedro Augusto</title>
+  <link rel="stylesheet" href="esse.css">
+  <link rel="icon" href="icone.ico" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo">Pedro Augusto</a>
+    
+    <div class="cabecalho-direita">
+      <nav>
+        <a href="index.html">Início</a>
+        <a href="curriculo.html">Currículo</a>
+        <a href="contato.html" class="ativo">Contato</a>
+      </nav>
+      
+      <div class="alternador-tema">
+        <input type="checkbox" id="theme-toggle-checkbox">
+        <label for="theme-toggle-checkbox" class="rotulo-alternador-tema">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+          <span class="bola-alternador-tema"></span>
+        </label>
+      </div>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="icone-menu">&#9776;</label>
+    </div>
+  </header>
+
+  <section class="contato">
+    <h1 class="titulo-secao">Fale <span>Comigo</span></h1>
+    <div class="container-contato">
+      
+      <form action="#" class="formulario-contato">
+        <div class="grupo-input">
+          <input type="text" placeholder="Seu Nome" required>
+          <input type="email" placeholder="Seu E-mail" required>
+        </div>
+        <textarea cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
+        <button type="submit" class="botao">Enviar Mensagem</button>
+      </form>
+      
+      <div class="info-contato">
+        <h3>Outras formas de contato</h3>
+        <ul>
+          <li><i class="fas fa-envelope"></i> pedroaugustodossantosnorberto@gmail.com</li>
+          <li><i class="fas fa-phone"></i> (47) 99137-7611</li>
+          <li><i class="fab fa-linkedin"></i> linkedin.com/in/pedro-augusto-981856303</li>
+          <li><i class="fas fa-map-marker-alt"></i> Santa Catarina, Brasil</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
